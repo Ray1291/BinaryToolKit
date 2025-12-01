@@ -41,13 +41,22 @@ The program will first prompt you to to config the mode you want to play
 ```Enter Config:```
 
 The proper order of items into for it to run is:
-<SIGN> from <BASE> to <BASE> <# questions>
+SIGN from BASE to BASE <# questions>
 
 SIGN = signed or unsigned 
 
 BASE = binary, hexidecimal, or decimal
 
-\# Questions = optional number of questions to ask before quiting (Default: 5)
+\# Questions = optional number of questions to ask before quiting (Default: 5). Any errors in the input will be caught and the user will be reprompted.
+
+Upon proper config, the program will then print a question:
+
+Ex. `(1) What is 11101010 in hexidecimal (SIGNED)`
+
+`Answer: `
+
+The user can then answer, if right a new question will show, if wrong the question will be reasked, and the number of tries left with be displayed (default: 5 tries per question).
+
 
 # Contributing 
 Feel free to submit issues or pull requests. Contributions to improve the code or add features are welcome!
