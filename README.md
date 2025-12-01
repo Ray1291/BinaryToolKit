@@ -32,6 +32,9 @@ The program will first prompt you to to config the mode you want to play
 The proper order of items into for it to run is:
 <SIGN> from <BASE> to <BASE> <# questions>
 
-SIGN = signed or unsigned
+SIGN = signed or unsigned 
 BASE = binary, hexidecimal, or decimal
 \# Questions = optional number of questions to ask before quiting (Default: 5)
+
+# Contributing 
+Feel free to submit issues or pull requests. Contributions to improve the code or add features are welcome!
