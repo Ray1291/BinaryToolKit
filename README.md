@@ -15,7 +15,7 @@ User-Friendly command-line interface
 Error checking for invalid inputs
 
 4. Installation:
-## Follow these steps to download, compile, and run the program: ```bash # Clone the repository git clone https://github.com/Ray1291/BinaryToolKit # Navigate into the project directory cd BinaryToolKit # Compile all the C source files together gcc input_parser.c question_prompter.c binaryfunctions.c main.c -o run.out # Run the program ./run.out
+```bash # Clone the repository git clone https://github.com/Ray1291/BinaryToolKit # Navigate into the project directory cd BinaryToolKit # Compile all the C source files together gcc input_parser.c question_prompter.c binaryfunctions.c main.c -o run.out # Run the program ./run.out ```
 
 5. # Usage
 
